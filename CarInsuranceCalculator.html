@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Car Insurance Calculator by Amy Morris-Clark</title>
+  <link rel="stylesheet" type="text/css" href="CarInsuranceCalculator.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="CarInsuranceCalc.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>Car Insurance Calculator</header>
+    <ul>
+      <li><form id="sex"><legend>Sex</legend> <fieldset>
+      <input type="radio" name="sex" value="20" id="Female" class="firstInput css-checkbox" />
+      <label class="css-label" for="Female">Female</label>
+         <input type="radio" name="sex" value="30" id="Male" class="css-checkbox" />
+         <label class="css-label" for="Male">Male</label></fieldset>
+          </form>
+          </li>
+      <li>
+      <form id="age"><legend>Age</legend><fieldset>
+        <input type="radio" id="sixteen" name="age" value="40" class="firstInput css-checkbox" />
+        <label class="css-label" for="sixteen">16-25</label>
+          <input id="twentysix" type="radio" name="age" value="30" class="css-checkbox" />
+          <label class="css-label" for="twentysix">26-34</label>
+            <input type="radio" id="thirtyfive" name="age" value="20" class="css-checkbox"  />
+            <label class="css-label" for="thirtyfive">35-50</label>
+              <input type="radio" name="age" id="fifty" value="15" class="css-checkbox" />
+              <label class="css-label" for="fifty">50+</label></fieldset>
+              </form>
+              </li>
+      <li>Car Color
+        <select name="color" id="car">
+          <option selected value="0"> -- select an option -- </option>
+          <option value="80">red</option>
+          <option value="50">silver</option>
+          <option value="50">black</option>
+          <option value="30">white</option>
+          <option value="50">other</option>
+        </select>
+      </li>
+      <li>Car Year
+        <select name="year" id="year">
+        <option selected value="0"> -- select an option -- </option>
+          <option value="60">2015+</option>
+          <option value="40">2000 - 2015</option>
+          <option value="60">1999 or before </option>
+        </select></li>
+        <li>Citations in past year
+          <select name="citations" id="citations">
+          <option selected value="0"> -- select an option -- </option>
+            <option value="20">1</option>
+            <option value="30">2</option>
+            <option value="40">3+</option>
+          </select>
+        </li>
+      </ul>
+      <hr>
+      <p class="total">Total:</p>
+    </div>
+   
+ </body>
+ </html> 

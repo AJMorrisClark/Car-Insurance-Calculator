@@ -1,0 +1,107 @@
+
+html, body {
+	 height: 100%;
+	 background-color: #f6f5f5;
+}
+
+
+.container {
+	margin: 0 auto;
+    width: 430px; 
+    background-color: #fff;
+    padding: 20px;
+    border-top: 2px solid #fff;
+ 	border-left: 2px solid #fff;
+    box-shadow: 2px 2px 0px 0 rgba(0, 0, 0, .20);
+    position: relative;
+  	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+ 	transform: translateY(-50%);
+ 	font-family: 'Roboto', sans-serif;
+ 	color: rgba(0,0,0,.80);
+
+}
+
+
+header {
+	font-size: 29px;
+	margin: 0 auto;
+    width: 441px; 
+    background-color: #002663;
+    padding: 15px;
+    position: relative;
+  	top: 50%;
+ 	font-family: 'Roboto', sans-serif;
+ 	color: #fff;
+ 	margin: -20px 0 0 -20px;
+ 	box-shadow: 2px 0px 0px 0 rgba(0, 0, 0, .20);
+
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 20px;
+}
+
+li {
+	margin: 30px 0;
+	font-weight: bold;
+}
+
+fieldset {
+	border:none;
+	margin-top: 10px;
+	padding:0;
+	font-weight:normal;
+}
+
+hr {
+	color: rgba(0,0,0,.20);
+	margin-bottom: 20px;
+}
+
+input {
+	margin-left: 25px;
+}
+
+select {
+	margin-left: 5px;
+}
+
+.total {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+input[type=radio].css-checkbox {
+display:none;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+padding-left:33px;
+height:28px; 
+display:inline-block;
+line-height:28px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:18px;
+vertical-align:middle;
+cursor:pointer;
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+background-position: 0 -28px;
+}
+
+label.css-label {
+background-image:url("http://www.amymorrisclark.com/Portfolio/images/radbutton.png");
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+			}
+
